@@ -44,7 +44,7 @@
                 {% for cart_item in cart_items %}
                 <tr>
                     <td>
-                        <a href="cart_item.product.get_absolute_url"><img class="float-left rounded custom_image" src="{{cart_item.product.image.url}}" alt="image" width="200px" height="200px"></a>
+                        <a href="#"><img class="float-left rounded custom_image" src="{{cart_item.product.image.url}}" alt="image" width="200px" height="200px"></a>
                     </td>
                     <td class="text-left">
                         {{cart_item.product.name}}
@@ -100,6 +100,10 @@
         <div class="mx_auto">
             <a href="{% url 'shop:allProductCat' %}" class="btn btn-secondary btn-block my_custom_button">Continue Shopping</a>
         </div>
+        <div class="mx_auto">
+            <a href="#" class="btn btn-primary btn-block my_custom_button">Place Order</a>
+        </div>
+
     </div>
     </div>
 </div>

@@ -14,7 +14,7 @@
 }
 .my_footer{
     background-color:#f8f9fa;
-    height:60px
+    height:60px;
 }
 .my_footer p{
     padding-top:20px;
@@ -102,5 +102,6 @@ text-decoration:none;
 }
 .my_custom_button{
     margin-top:5px;
+    font-size:18px
 
 }
